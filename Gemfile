@@ -21,3 +21,8 @@ gem "sqlite3", "~> 1.4"
 gem "require_all"
 
 gem "pry"
+
+group :test do
+  gem "database_cleaner"
+  gem "rspec"
+end
